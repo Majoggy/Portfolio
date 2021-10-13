@@ -1,6 +1,8 @@
 import React from 'react'
 
 function Projects() {
+
+
   return (
     <>
       <section id="projects" className="project-section black">
@@ -15,7 +17,11 @@ function Projects() {
                 <i className="devicon-github-original project-icon"></i>
               </a>
               <a href="https://home-game-tracker.netlify.app/">
-                <img className="link-icon" src="/images/link-icon.png" /> 
+                <img 
+                  className="link-icon" 
+                  onMouseOver={e => (e.currentTarget.src = '/images/hover-link-icon.png' )} 
+                  onMouseOut={e => (e.currentTarget.src = '/images/link-icon.png' )} 
+                  src="/images/link-icon.png" /> 
               </a>
             </div>
           </div>
@@ -28,7 +34,11 @@ function Projects() {
                 <i className="devicon-github-original project-icon"></i>
               </a>
               <a href="https://airstudio-se57.netlify.app/">
-                <img className="link-icon" src="/images/link-icon.png" /> 
+                <img 
+                  className="link-icon" 
+                  onMouseOver={e => (e.currentTarget.src = '/images/hover-link-icon.png' )} 
+                  onMouseOut={e => (e.currentTarget.src = '/images/link-icon.png' )} 
+                  src="/images/link-icon.png" /> 
               </a>
             </div>
           </div>
@@ -41,7 +51,11 @@ function Projects() {
                 <i className="devicon-github-original project-icon"></i>
               </a>
               <a href="https://diction-airy.netlify.app/">
-                <img className="link-icon" src="/images/link-icon.png" /> 
+                <img 
+                  className="link-icon" 
+                  onMouseOver={e => (e.currentTarget.src = '/images/hover-link-icon.png' )} 
+                  onMouseOut={e => (e.currentTarget.src = '/images/link-icon.png' )} 
+                  src="/images/link-icon.png" /> 
               </a>
             </div>
           </div>
@@ -54,7 +68,11 @@ function Projects() {
                 <i className="devicon-github-original project-icon"></i>
               </a>
               <a href="https://majoggy.github.io/sei-project-1/">
-                <img className="link-icon" src="/images/link-icon.png" /> 
+                <img 
+                  className="link-icon" 
+                  onMouseOver={e => (e.currentTarget.src = '/images/hover-link-icon.png' )} 
+                  onMouseOut={e => (e.currentTarget.src = '/images/link-icon.png' )} 
+                  src="/images/link-icon.png" /> 
               </a>
             </div>
           </div>

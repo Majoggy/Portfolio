@@ -1,19 +1,22 @@
+import React from 'react'
+import { Link } from 'react-scroll'
+
 function Nav() {
   return (
     <section className="nav black">
       <div className="nav-items">
-        <a href='#about'>
+        <Link activeClass="active" to="about" spy={true} smooth={true} duration={500}>
           <p>&#123; About &#125;</p>
-        </a>
-        <a href='#projects'>
+        </Link>
+        <Link activeClass="active" to="projects" spy={true} smooth={true} duration={750}>
           <p>&#123; Projects &#125;</p>
-        </a>
-        <a href='#interests'>
+        </Link>
+        <Link activeClass="active" to="interests" spy={true} smooth={true} duration={1000}>
           <p>&#123; Interests &#125;</p>
-        </a>
-        <a href='#contact'>
+        </Link>
+        <Link activeClass="active" to="contact" spy={true} smooth={true} duration={1000}>
           <p>&#123; Contact &#125;</p>
-        </a>
+        </Link>
       </div>
     </section>
   ) 

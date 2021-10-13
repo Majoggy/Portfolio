@@ -66,6 +66,9 @@ a {
   color:whitesmoke;
   width: 800px;
   justify-content: space-evenly;
+  a:hover {
+    color: #8FC4DC
+  }
 }
 
 
@@ -115,6 +118,10 @@ a {
   font-size: 45px;
   color: #8FC4DC;
   margin-top: 30px;
+
+  i:hover {
+    color: #8FC4DC;
+  }
 }
 
 .home-icon {
@@ -199,6 +206,14 @@ a {
   width: 80px;
 }
 
+.icon-div:hover {
+  i {
+    color: #8FC4DC;
+    text-shadow: 1px 1px black;
+  }
+  
+}
+
 .icon-text {
   font-size: 14px;
 }
@@ -233,7 +248,6 @@ a {
 
 .project-div {
   background-color: #1c1c1c;
-  border: px solid rgb(181, 181, 181);
   border-radius: 10px;
   height: 500px;
   width: 500px;
@@ -242,6 +256,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+
   
   h2 {
     text-align: center;
@@ -259,6 +274,10 @@ a {
     font-size: 25px;
     color: whitesmoke;
   }
+  
+  .project-icon:hover {
+    color: #8FC4DC;
+  }
 
   .link-icon {
     width:30px;
@@ -270,6 +289,10 @@ a {
     text-align: center;
     width: 400px;
   }
+}
+
+.project-div:hover {
+  border: 1px solid #8FC4DC;
 }
 
 .project-img {
@@ -311,6 +334,9 @@ a {
   a {
     color: whitesmoke;
     font-size: 40px;
+  }
+  a:hover {
+    color: #8FC4DC;
   }
   p {
     margin-top: 5px;
@@ -406,7 +432,7 @@ a {
   }
 
   h2 {
-    font-size: 22px;
+    font-size: 21px;
   }
 
   .section-title {
@@ -527,7 +553,7 @@ a {
   }
 
   h2 {
-    font-size: 20px;
+    font-size: 19px;
   }
 
   .sub-title {

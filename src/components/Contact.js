@@ -17,7 +17,11 @@ function Contact() {
         </div>
         <div>
           <a href='mailto:cbaker87@gmail.com'>
-            <img className="email-icon" src="/images/email-icon.png" /> 
+            <img 
+              className="email-icon" 
+              onMouseOver={e => (e.currentTarget.src = '/images/hover-email-icon.png' )} 
+              onMouseOut={e => (e.currentTarget.src = '/images/email-icon.png' )} 
+              src="/images/email-icon.png" /> 
           </a>
           <p>&#123; Email &#125;</p>
         </div>
