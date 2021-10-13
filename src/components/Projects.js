@@ -4,7 +4,7 @@ function Projects() {
   return (
     <>
       <section id="projects" className="project-section black">
-        <h1 className="section-title">&#123;Projects&#125;</h1>
+        <h1 className="section-title">&#123; Projects &#125;</h1>
         <section className="project-wrap">
           <div className="project-div">
             <h2>&#123; Home Game Tracker &#125;</h2>
@@ -60,7 +60,7 @@ function Projects() {
           </div>
         </section>
       </section>
-      <div className="contact-slant-div"></div>
+      <div className="interests-slant-div"></div>
     </>
   )
 

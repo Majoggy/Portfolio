@@ -2,7 +2,7 @@ function About() {
   return (
     <>
       <section id="about" className="about-section off-white">
-        <h1 className="about-title section-title">&#123;About Me&#125;</h1>
+        <h1 className="about-title section-title">&#123; About Me &#125;</h1>
         <div className="about-wrap">
           <div className="about-me">
             <p> I’ve always had a keen interest in computer science and after a ten-year career in hospitality management, I wanted a challenge. In 2021, I enrolled in Harvard’s online Computer Science course, CS50x. This course served as an introduction to core computer science concepts - exposing me to new and exciting ways to solve problems and to create something out of nothing.</p>
@@ -36,7 +36,7 @@ function About() {
               </div>
               <div className="icon-div">
                 <i className="devicon-mongodb-plain icon-margin"></i>
-                <p className="icon-text">MongoDb</p>
+                <p className="icon-text">MongoDB</p>
               </div>
               <div className="icon-div">
                 <i className="devicon-django-plain icon-margin"></i>

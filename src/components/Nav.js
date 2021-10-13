@@ -8,6 +8,9 @@ function Nav() {
         <a href='#projects'>
           <p>&#123; Projects &#125;</p>
         </a>
+        <a href='#interests'>
+          <p>&#123; Interests &#125;</p>
+        </a>
         <a href='#contact'>
           <p>&#123; Contact &#125;</p>
         </a>

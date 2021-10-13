@@ -64,7 +64,7 @@ a {
   font-size: 20px;
   font-weight: bold;
   color:whitesmoke;
-  width: 600px;
+  width: 800px;
   justify-content: space-evenly;
 }
 
@@ -164,6 +164,7 @@ a {
 
 .about-me {
   width: 50%;
+  text-align: justify;
 }
 
 .skills {
@@ -212,7 +213,7 @@ a {
   flex-direction: column;
 }
 
-.contact-slant-div {
+.interests-slant-div {
   transform: skewY(3deg);
   background: #242424;
   width: 100%;
@@ -231,7 +232,8 @@ a {
 }
 
 .project-div {
-  border: 1px solid whitesmoke;
+  background-color: #1c1c1c;
+  border: px solid rgb(181, 181, 181);
   border-radius: 10px;
   height: 500px;
   width: 500px;
@@ -273,7 +275,7 @@ a {
 .project-img {
   width: 400px;
   height: 250px;
-  border: solid grey 1px;
+  border: solid rgb(114, 114, 114) 1px;
   border-radius: 5px;
 }
 
@@ -282,16 +284,22 @@ a {
 
 .contact-section {
   display: flex;
+  background-color: #242424;
   flex-direction: column;
   align-items: center;
   padding-bottom: 100px;
-  margin-top: -40px;
+  margin-top: -80px;
+}
+
+.content-title {
+  margin-top: 250px;
 }
 
 .contact-wrap {
   display: flex;
 
   div {
+    color: whitesmoke;
     width: 120px;
     height: 100px;
     margin: 10px;
@@ -301,7 +309,7 @@ a {
     padding: 10px;
   }
   a {
-    color: #242424;
+    color: whitesmoke;
     font-size: 40px;
   }
   p {
@@ -311,6 +319,78 @@ a {
     width: 40px;
     height: auto;
   }
+}
+
+// * Interests --------------------------------
+
+.interests-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: -50px;
+}
+
+.contact-slant-div {
+  transform: skewY(-3deg);
+  background: whitesmoke;
+  width: 100%;
+  margin-top: -70px;
+  height: 300px;
+}
+
+.interests-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.interests-three-across {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.interest-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid grey 1px;
+  border-radius: 5px;
+  height: 350px;
+  width: 350px;
+  margin: 15px;
+  opacity: 95%;
+}
+
+.int-fic {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('../assets/int-fic.jpg');
+  background-size: 160%;
+  background-position: 30%;
+}
+
+.guitar {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('../assets/horizon.jpg');
+  background-size: 250%;
+  background-position: 50% 40%;
+}
+
+.reading {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('../assets/books.jpeg');
+  background-size: 150%;
+  background-position: 50% 40%;
+}
+
+.interest-text {
+  color: whitesmoke;
+  margin: 15px;
+  text-align: center;
 }
 
 // * Media Queries --------------------------------
@@ -424,6 +504,12 @@ a {
   .about-slant {
     margin-top: -30px;
   }
+
+  .interest-div {
+    height: 280px;
+    width: 280px;
+    margin: 10px;
+  }
 }
 
 @media only screen and (max-width: 450px) {
@@ -483,7 +569,6 @@ a {
   }
 
   .contact-wrap {
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -497,7 +582,7 @@ a {
       padding: 10px;
     }
     a {
-      color: #242424;
+      color: whitesmoke;
       font-size: 25px;
 
     }

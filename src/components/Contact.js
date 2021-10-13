@@ -1,7 +1,7 @@
 function Contact() {
   return (
-    <section id="contact" className="contact-section off-white">
-      <h1 className="section-title">&#123; Contact &#125;</h1>
+    <section id="contact" className="contact-section black">
+      <h1 className="section-title content-title">&#123; Contact &#125;</h1>
       <div className="contact-wrap">
         <div>
           <a href="http://www.linkedin.com/in/cpr-baker">
@@ -13,7 +13,7 @@ function Contact() {
           <a href="https://github.com/Majoggy">
             <i className="devicon-github-original contact-icon"></i>
           </a>
-          <p>&#123; Github &#125;</p>
+          <p>&#123; GitHub &#125;</p>
         </div>
         <div>
           <a href='mailto:cbaker87@gmail.com'>
