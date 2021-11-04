@@ -32,7 +32,7 @@ function Interests() {
               className="interest-div guitar"
               onMouseEnter={() =>setGuitarShown(true)} 
               onMouseLeave={() => setGuitarShown(false)} 
-              style={{ backgroundImage: guitarShown ? 'linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/horizon.jpg)' 
+              style={{ backgroundImage: guitarShown ? 'linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/horizon.jpg)'
                 : 'url(/images/horizon.jpg)' }}>
               {guitarShown && <p className="interest-text">&#123; Recovering musician/electric guitarist &#125;</p>}
             </div>
