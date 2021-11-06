@@ -13,7 +13,7 @@ function Projects() {
               <h2>&#123; Worst Movie Search &#125;</h2>
               <img className="project-img" src="/images/worst-movie.png" />
               <p>&#123; Search for your favourite actors worst films. A single-page application using a third-party movie API, coded in React &#125;</p>
-              <div className="project-icons">
+              <div className="project-icons non-ga">
                 <a href="https://worst-movie-search.netlify.app/">
                   <i className="devicon-github-original project-icon"></i>
                 </a>
@@ -31,8 +31,9 @@ function Projects() {
             <div className="project-div">
               <h2>&#123; Home Game Tracker &#125;</h2>
               <img className="project-img" src="/images/home-game.png" />
-              <p>&#123; A full-stack statistics tracker for tournament poker, with a React frontend and Django/MongoDB backend &#125;</p>
+              <p>&#123; A full-stack statistics tracker for tournament poker, with a React frontend and Django/Python backend &#125;</p>
               <div className="project-icons">
+                <img className="ga-icon" src="/images/ga-icon.png" />
                 <a href="https://github.com/Majoggy/project-four-frontend">
                   <i className="devicon-github-original project-icon"></i>
                 </a>
@@ -53,6 +54,7 @@ function Projects() {
               <img className="project-img" src="/images/air-studio.png" />
               <p>&#123; A full-stack MERN application, AirStudio is an Airbnb inspired recording-studio bookings website &#125;</p>
               <div className="project-icons">
+                <img className="ga-icon" src="/images/ga-icon.png" />
                 <a href="https://github.com/Majoggy/project-three-frontend">
                   <i className="devicon-github-original project-icon"></i>
                 </a>
@@ -72,6 +74,7 @@ function Projects() {
               <img className="project-img" src="/images/diction-alt.png" />
               <p>&#123; A single-page application using a third-party dictionary API, coded in React &#125;</p>
               <div className="project-icons">
+                <img className="ga-icon" src="/images/ga-icon.png" />
                 <a href="https://github.com/Majoggy/Sei-Project-2">
                   <i className="devicon-github-original project-icon"></i>
                 </a>
@@ -91,6 +94,7 @@ function Projects() {
               <img className="project-img" src="/images/space-invaders.png" />
               <p>&#123; A remake of the classic Space Invaders arcade game, in Vanilla JavaScript, HTML and CSS &#125;</p>
               <div className="project-icons">
+                <img className="ga-icon" src="/images/ga-icon.png" />
                 <a href="https://github.com/Majoggy/sei-project-1">
                   <i className="devicon-github-original project-icon"></i>
                 </a>

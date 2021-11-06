@@ -69,7 +69,7 @@ a {
   a {
     transition: .3s;
     position: relative;
-    
+    cursor: pointer;
   }
   a:hover {
     transform: scale(1.1);
@@ -277,9 +277,13 @@ a {
   .project-icons {
     display: flex;
     justify-content: space-around;
-    width: 100px;
+    width: 120px;
     margin-bottom: 30px;
     margin-top: 10px;
+  }
+
+  .non-ga {
+    width: 80px;
   }
 
   .project-icon {
@@ -294,6 +298,11 @@ a {
   .link-icon {
     width:30px;
     height: auto;
+  }
+
+  .ga-icon {
+    width: 26px;
+    height: 26px;
   }
 
   p {
@@ -505,12 +514,20 @@ a {
     margin: 30px;
 
     .project-icons {
-      width: 65px;
+      width: 80px;
     }
-
+    
+    .non-ga {
+      width: 60px;
+    }
     .project-icon {
       font-size: 20px;
       color: whitesmoke;
+    }
+
+    .ga-icon {
+      height: 20px;
+      width: 20px;
     }
 
     .link-icon {
